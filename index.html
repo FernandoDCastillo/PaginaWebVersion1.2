@@ -4,27 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Mi primera aplicacion html, Fernando Castillo</title>
-    <link rel = "stylesheet" href="diseño.css"></link>
+    <title>Fernando Castillo</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="/styles/style.css"></link>
   </head>
   <body>
-    <h1>Blog de Fernando Castillo</h1>
-
-    <!--Datos generales-->>
-    <h2>Persona</h2>
-
-    <h3> <p>Fernando Daniel Castillo Sonda </br>
-      21 años</br>
-      ISC</br>
-      Estudiante</br>
-      Carmelo, Campeche, Campeche</p></h3>
-
-    <h3>Redes sociales</h3>
+    <header id= "cabecera">
+        <h1>Blog de Fernando Castillo</h1>
+    </header>
+    <div class="container">
+    <nav id ="nav-main">
       <ul>
-        <li>Facebook: Fernando Daniel</li>
-        <li>Instagram: fernando_daniel137</li>
+        <li><a href="#">Persona</a></li>
+        <li><a href="#">Goals & Motivation</a></li>
+        <li><a href="#">A Day in the life of</a></li>
+        <li><a href="#">Imagenes</a></li>
+        <li><a href="#">Otros</a></li>
       </ul>
-            
+    </nav>  
+  </div>
+    <hr>
+
+    <!--Datos generales-->
+    <h2>Persona</h2>
+      <p>
+      Me llamo Fernando Daniel Castillo Sonda </br>
+      Tengo 21 años</br>
+      Actualmente estudiando ingenieria en sistemas computacionales</br>
+      Estudiante</br>
+      Vivo en Carmelo, Campeche, Campeche
+      </p>
+   
+ 
     <!--Datos de interes-->  
     <h2>Goals & Motivation</h2>
     <p>
@@ -69,10 +83,22 @@
       <input type="range" min="1" max="10" />
       Joven & innovation
     </p>
-    <!--Hipervinculo-->
-    <a href = "https://fi.uacam.mx">Facultad de ingenieria</a>
+    
 
     <!--imagen-->
     <img src ="imagen.jpg">
+    <footer>
+      <!--Hipervinculo-->
+    <a href = "https://fi.uacam.mx">Facultad de ingenieria</a>
+      <h3>Redes sociales</h3>
+      <ul>
+        <li>Facebook: Fernando Castillo</li>
+        <li>Instagram: fernando_daniel137</li>
+      </ul>
+    </footer>
+    <!--Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scripts/main.js"></script>
+
   </body>
 </html>
